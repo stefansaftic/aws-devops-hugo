@@ -1,0 +1,23 @@
+*.js
+!lambda/*.js
+!jest.config.js
+*.d.ts
+node_modules
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+# Hugo binary
+lambda/hugo
+tmp/hugo.tar.gz
+
+# Themes and zip
+web/themes/*
+!web/themes/README.md
+web/web.zip
+tmp/web.zip
+tmp/papermod.zip
+
+#OSX
+.DS_store
